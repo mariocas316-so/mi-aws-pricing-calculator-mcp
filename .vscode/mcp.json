@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "aws-pricing-calculator-mcp-server": {
-      "type": "stdio",
-      "command": "node",
-      "args": ["C:\\Users\\mario.castillo\\proyectos\\mi-aws-pricing-calculator-mcp\\dist\\mcp-server.js"]
-    }
-  }
-}

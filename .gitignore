@@ -9,3 +9,56 @@ mcp-server.log
 email.html
 docs/
 archivostcoonnet/
+
+# Sensitive customer/inventory data
+inventarioAri/
+databricks-analysis/
+aws-migration-estimates/
+
+# Customer exports and analysis artifacts
+blob-usage-*.csv
+storage-objects-*.csv
+databricks-*.csv
+databricks-*.json
+s3-estimate-*.json
+aws-s3-*-payload.json
+storage-grouped-s3-input-*.csv
+storage-resource-tb-normalized-*.csv
+
+# VM/customer mapping outputs
+vm-*-result.json
+vm-costs-*.json
+vm-reconciliation-report.json
+vm-analysis-by-environment.json
+vm-azure-aws-mapping.json
+vm-unknown-classified.json
+
+# Reports generated from customer data
+estimado-aws-report.txt
+estimado-aws-structure.json
+aks-worker-output.txt
+aks-workers-analysis.json
+apigw-calculator-results.json
+joomla_calculator_*.json
+migracion_analisis_resultados.json
+option2_calculator_*.json
+
+# Generated S3/estimation outputs
+s3-estimates-by-environment.json
+s3-storage-*.json
+
+# Sensitive executive/analysis docs generated in this workspace
+CALCULADORA-S3-POR-AMBIENTE.md
+GUIA-PRESENTACION-ESTIMADOS.md
+PASO_A_PASO_CALCULADORA_AWS_138TB.md
+resumen-ejecutivo-estimados.md
+CLASIFICACION_DATABRICKS_DIRECTO_ASOCIADO.md
+comparativa-almacenamiento-objetos-azure-vs-aws.md
+clasificacion-almacenamiento-azure.md
+
+# Local tool configs
+.vscode/mcp.json
+
+# Exclude tests from repository (user request)
+test/
+tests/
