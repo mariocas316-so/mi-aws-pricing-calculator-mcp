@@ -62,3 +62,13 @@ clasificacion-almacenamiento-azure.md
 # Exclude tests from repository (user request)
 test/
 tests/
+
+# Temporary/local helper scripts (customer-specific workflows)
+create-s3-estimado.js
+create-s3-storage-1218tb-from-resources.js
+create-s3-storage-138tb-from-inventory.js
+create-s3-storage-by-environment-estimate.js
+create-s3-storage-estimate.js
+fetch-s3-estimate-details.js
+generate-executive-summary.js
+reconcile-databricks-ari-costs.py
